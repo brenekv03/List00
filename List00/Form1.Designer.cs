@@ -60,6 +60,7 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -313,32 +314,32 @@
             // 
             this.button18.Location = new System.Drawing.Point(794, 242);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.Size = new System.Drawing.Size(123, 33);
             this.button18.TabIndex = 28;
-            this.button18.Text = "button18";
+            this.button18.Text = "Find()";
             this.button18.UseVisualStyleBackColor = true;
             // 
             // button19
             // 
             this.button19.Location = new System.Drawing.Point(794, 281);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
+            this.button19.Size = new System.Drawing.Size(123, 32);
             this.button19.TabIndex = 29;
-            this.button19.Text = "button19";
+            this.button19.Text = "FindAll()";
             this.button19.UseVisualStyleBackColor = true;
             // 
             // button20
             // 
             this.button20.Location = new System.Drawing.Point(794, 319);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
+            this.button20.Size = new System.Drawing.Size(123, 39);
             this.button20.TabIndex = 30;
-            this.button20.Text = "button20";
+            this.button20.Text = "RemoveAll()";
             this.button20.UseVisualStyleBackColor = true;
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(794, 359);
+            this.button21.Location = new System.Drawing.Point(875, 151);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 23);
             this.button21.TabIndex = 31;
@@ -347,18 +348,27 @@
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(794, 397);
+            this.button22.Location = new System.Drawing.Point(875, 184);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 23);
             this.button22.TabIndex = 32;
             this.button22.Text = "button22";
             this.button22.UseVisualStyleBackColor = true;
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(770, 364);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(218, 95);
+            this.listBox2.TabIndex = 33;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 467);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.button22);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
@@ -432,6 +442,7 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.ListBox listBox2;
     }
 }
 
