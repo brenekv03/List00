@@ -31,6 +31,7 @@ namespace List00
             seznamfilmu.Add("aa");
             seznamfilmu.Add("bbaa");
             seznamfilmu.Add("ccaa");
+            seznamfilmu.Add("ccaasdggggggggggg");
 
         }
 
@@ -203,6 +204,24 @@ namespace List00
             string[] poleFilmu = new string[seznamfilmu.Count];
             seznamfilmu.CopyTo(poleFilmu);
             foreach (string film in poleFilmu) MessageBox.Show(film);
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            string film = seznamfilmu.Find(a => a.Length > 10);
+            MessageBox.Show(film);
+        }
+        List<string> vyber = new List<string>();
+        private void button20_Click(object sender, EventArgs e)
+        {
+            vyber = seznamfilmu.FindAll(a => a.Length < 10);
+            foreach (string film in vyber) MessageBox.Show(film);
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            vyber.RemoveAll(a => a.Length > 10);
+            foreach (string film in vyber) MessageBox.Show(film);
         }
     }
 }

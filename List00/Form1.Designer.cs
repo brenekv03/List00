@@ -318,6 +318,7 @@
             this.button18.TabIndex = 28;
             this.button18.Text = "Find()";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -325,8 +326,9 @@
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(123, 32);
             this.button19.TabIndex = 29;
-            this.button19.Text = "FindAll()";
+            this.button19.Text = "RemoveAll()";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -334,8 +336,9 @@
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(123, 39);
             this.button20.TabIndex = 30;
-            this.button20.Text = "RemoveAll()";
+            this.button20.Text = "FindAll()";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
